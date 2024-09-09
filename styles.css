@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%; /* Ensure full height for centering */
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 30vh; /* Make sure the container takes the full viewport height */
+}
+.container2 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 30vh; /* Make sure the container takes the full viewport height */
+}
+.password {
+  color: black;
+  padding: 10px; /* Add some padding for better visibility */
+}
+
+.check-password {
+  color: black;
+  padding: 10px;
+}
+.error {
+  color: red;
+  border: 5px solid red;
+}
+
+.no-error {
+  color: green;
+  border: 5px solid green;
+}
+
+.hide{
+    visibility: hidden;
+}
